@@ -66,7 +66,7 @@ function change(i,j){
         live(i-1,j-1);
     }
 }
-<!--不算该细胞，周围八个格子细胞存活数 -->
+//不算该细胞，周围八个格子细胞存活数
 function calculate(x,y){
     count=0;
     for(var i=x-1;i<=x+1;i++){
